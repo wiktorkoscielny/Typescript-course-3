@@ -14,7 +14,7 @@ It contains state with registered users, and field form to add new user.
 App.tsx is main component of the application. It contains children components as AddToList and List.
 I have used types of react and passed props, also function components and interfaces that I passed throught components. You can simply add new user.
 
-[preview](./src/page-img.jpg)
+![preview](./src/page-img.jpg)
 
 ## Setup
 ### how to start the App
