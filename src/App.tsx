@@ -22,7 +22,7 @@ function App() {
 ]);
 
 people.map(person => {
-  person.
+  person.age
 })
 
   return (
