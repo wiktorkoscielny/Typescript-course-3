@@ -1,29 +1,19 @@
 
 import React, { useState } from 'react';
-
+// interface to define the certen type
+interface IState {
+  people: {
+    name: string
+    age: number
+    url: string
+    note?: string
+  }[]
+}
 
 
 function App() {
-
-  const [people, setPeople] = useState([
-  {
-    name: "Jan Kowalski",
-    url: "",
-    age: 36,
-    note: "experienced user"
-  }, 
-  {
-    name: "Bogdan Nowak",
-    url: "",
-    age: 22,
-    note: "new user"
-  }
-
-]);
-
-people.map(person => {
-  person.age
-})
+// define a type by <>
+  const [people, setPeople] = useState<IState["people"]>([])
 
   return (
     <div>
