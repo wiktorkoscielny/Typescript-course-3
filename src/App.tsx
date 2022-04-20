@@ -4,7 +4,7 @@ import List from './components/List'
 import './App.css'
 import AddToList from './components/AddToList';
 
-// interface to define the certen type
+// interface to define the current type
 export interface IState {
   people: {
     name: string
